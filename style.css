@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),)rgba(0,0,0,0.5)rgba(0,0,0,0.5), url(fernandez.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    background-image: 2;
+}
+
+body{
+    background-image: url(101.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    min-height: 100px;
+    height: 100vh;
+   
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6 ease;
+   
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000
+}
+
+ul li.active2 a{
+    background-color: #fff;
+    color: #000
+}
+
+ul li.active3 a{
+    background-color: #fff;
+    color: #000
+}
+
+.logo{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+img{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: auto;
+    height: 50%;
+    clip-path: circle();
+}
+
+.img h1{
+    color: #fff;
+    width: 100;
+}
+
+.title{
+    position: absolute;
+    top: 27%;
+    left: 27%;
+    width: auto;
+    height: 50%;
+    font-size: 50%;
+}
+
+.title h1{
+    font-size: 35px;
+    color: #fff;
+}
+
+
+
+.ul1{
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+.ul1 h2{
+    font-size: 30;
+    color: #000;
+    background-color: aqua;
+}
+
+
+.title2{
+    position: absolute;
+    top: 83%;
+    left: 40%;
+    width: auto;
+    height: 50%;
+    font-size: 50%;
+}
+
+.title2 h2{
+    font-size: 30;
+    color:white;
+}
+
+
+
+
+    
